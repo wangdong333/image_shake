@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF9A8901754AD7E00CB4A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A88F1754AD7E00CB4A32 /* UIKit.framework */; };
+		FDF9A8921754AD7E00CB4A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A8911754AD7E00CB4A32 /* Foundation.framework */; };
+		FDF9A8941754AD7E00CB4A32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A8931754AD7E00CB4A32 /* CoreGraphics.framework */; };
+		FDF9A89A1754AD7E00CB4A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8981754AD7E00CB4A32 /* InfoPlist.strings */; };
+		FDF9A89C1754AD7E00CB4A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A89B1754AD7E00CB4A32 /* main.m */; };
+		FDF9A8A01754AD7E00CB4A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A89F1754AD7E00CB4A32 /* AppDelegate.m */; };
+		FDF9A8A21754AD7E00CB4A32 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8A11754AD7E00CB4A32 /* Default.png */; };
+		FDF9A8A41754AD7E00CB4A32 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8A31754AD7E00CB4A32 /* Default@2x.png */; };
+		FDF9A8A61754AD7E00CB4A32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8A51754AD7E00CB4A32 /* Default-568h@2x.png */; };
+		FDF9A8A91754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8A71754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard */; };
+		FDF9A8AC1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8AA1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard */; };
+		FDF9A8AF1754AD7F00CB4A32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A8AE1754AD7F00CB4A32 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF9A88C1754AD7E00CB4A32 /* 图像抖动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图像抖动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF9A88F1754AD7E00CB4A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF9A8911754AD7E00CB4A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF9A8931754AD7E00CB4A32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF9A8971754AD7E00CB4A32 /* 图像抖动-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "图像抖动-Info.plist"; sourceTree = "<group>"; };
+		FDF9A8991754AD7E00CB4A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF9A89B1754AD7E00CB4A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF9A89D1754AD7E00CB4A32 /* 图像抖动-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "图像抖动-Prefix.pch"; sourceTree = "<group>"; };
+		FDF9A89E1754AD7E00CB4A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF9A89F1754AD7E00CB4A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF9A8A11754AD7E00CB4A32 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDF9A8A31754AD7E00CB4A32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDF9A8A51754AD7E00CB4A32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDF9A8A81754AD7F00CB4A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FDF9A8AB1754AD7F00CB4A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FDF9A8AD1754AD7F00CB4A32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF9A8AE1754AD7F00CB4A32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF9A8891754AD7E00CB4A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF9A8901754AD7E00CB4A32 /* UIKit.framework in Frameworks */,
+				FDF9A8921754AD7E00CB4A32 /* Foundation.framework in Frameworks */,
+				FDF9A8941754AD7E00CB4A32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF9A8831754AD7E00CB4A32 = {
+			isa = PBXGroup;
+			children = (
+				FDF9A8951754AD7E00CB4A32 /* 图像抖动 */,
+				FDF9A88E1754AD7E00CB4A32 /* Frameworks */,
+				FDF9A88D1754AD7E00CB4A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF9A88D1754AD7E00CB4A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9A88C1754AD7E00CB4A32 /* 图像抖动.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF9A88E1754AD7E00CB4A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9A88F1754AD7E00CB4A32 /* UIKit.framework */,
+				FDF9A8911754AD7E00CB4A32 /* Foundation.framework */,
+				FDF9A8931754AD7E00CB4A32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF9A8951754AD7E00CB4A32 /* 图像抖动 */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9A89E1754AD7E00CB4A32 /* AppDelegate.h */,
+				FDF9A89F1754AD7E00CB4A32 /* AppDelegate.m */,
+				FDF9A8A71754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard */,
+				FDF9A8AA1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard */,
+				FDF9A8AD1754AD7F00CB4A32 /* ViewController.h */,
+				FDF9A8AE1754AD7F00CB4A32 /* ViewController.m */,
+				FDF9A8961754AD7E00CB4A32 /* Supporting Files */,
+			);
+			path = "图像抖动";
+			sourceTree = "<group>";
+		};
+		FDF9A8961754AD7E00CB4A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9A8971754AD7E00CB4A32 /* 图像抖动-Info.plist */,
+				FDF9A8981754AD7E00CB4A32 /* InfoPlist.strings */,
+				FDF9A89B1754AD7E00CB4A32 /* main.m */,
+				FDF9A89D1754AD7E00CB4A32 /* 图像抖动-Prefix.pch */,
+				FDF9A8A11754AD7E00CB4A32 /* Default.png */,
+				FDF9A8A31754AD7E00CB4A32 /* Default@2x.png */,
+				FDF9A8A51754AD7E00CB4A32 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF9A88B1754AD7E00CB4A32 /* 图像抖动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF9A8B21754AD7F00CB4A32 /* Build configuration list for PBXNativeTarget "图像抖动" */;
+			buildPhases = (
+				FDF9A8881754AD7E00CB4A32 /* Sources */,
+				FDF9A8891754AD7E00CB4A32 /* Frameworks */,
+				FDF9A88A1754AD7E00CB4A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图像抖动";
+			productName = "图像抖动";
+			productReference = FDF9A88C1754AD7E00CB4A32 /* 图像抖动.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF9A8841754AD7E00CB4A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = long;
+			};
+			buildConfigurationList = FDF9A8871754AD7E00CB4A32 /* Build configuration list for PBXProject "图像抖动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDF9A8831754AD7E00CB4A32;
+			productRefGroup = FDF9A88D1754AD7E00CB4A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF9A88B1754AD7E00CB4A32 /* 图像抖动 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF9A88A1754AD7E00CB4A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF9A89A1754AD7E00CB4A32 /* InfoPlist.strings in Resources */,
+				FDF9A8A21754AD7E00CB4A32 /* Default.png in Resources */,
+				FDF9A8A41754AD7E00CB4A32 /* Default@2x.png in Resources */,
+				FDF9A8A61754AD7E00CB4A32 /* Default-568h@2x.png in Resources */,
+				FDF9A8A91754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FDF9A8AC1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF9A8881754AD7E00CB4A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF9A89C1754AD7E00CB4A32 /* main.m in Sources */,
+				FDF9A8A01754AD7E00CB4A32 /* AppDelegate.m in Sources */,
+				FDF9A8AF1754AD7F00CB4A32 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF9A8981754AD7E00CB4A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF9A8991754AD7E00CB4A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDF9A8A71754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF9A8A81754AD7F00CB4A32 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF9A8AA1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF9A8AB1754AD7F00CB4A32 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF9A8B01754AD7F00CB4A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF9A8B11754AD7F00CB4A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF9A8B31754AD7F00CB4A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图像抖动/图像抖动-Prefix.pch";
+				INFOPLIST_FILE = "图像抖动/图像抖动-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDF9A8B41754AD7F00CB4A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图像抖动/图像抖动-Prefix.pch";
+				INFOPLIST_FILE = "图像抖动/图像抖动-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF9A8871754AD7E00CB4A32 /* Build configuration list for PBXProject "图像抖动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF9A8B01754AD7F00CB4A32 /* Debug */,
+				FDF9A8B11754AD7F00CB4A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF9A8B21754AD7F00CB4A32 /* Build configuration list for PBXNativeTarget "图像抖动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF9A8B31754AD7F00CB4A32 /* Debug */,
+				FDF9A8B41754AD7F00CB4A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF9A8841754AD7E00CB4A32 /* Project object */;
+}
