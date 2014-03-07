@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDE95A281754B1A0002B0625 /* 手机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDE95A271754B1A0002B0625 /* 手机.jpg */; };
 		FDF9A8901754AD7E00CB4A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A88F1754AD7E00CB4A32 /* UIKit.framework */; };
 		FDF9A8921754AD7E00CB4A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A8911754AD7E00CB4A32 /* Foundation.framework */; };
 		FDF9A8941754AD7E00CB4A32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A8931754AD7E00CB4A32 /* CoreGraphics.framework */; };
@@ -19,9 +20,11 @@
 		FDF9A8A91754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8A71754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard */; };
 		FDF9A8AC1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9A8AA1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard */; };
 		FDF9A8AF1754AD7F00CB4A32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A8AE1754AD7F00CB4A32 /* ViewController.m */; };
+		FDF9A8B61754ADA900CB4A32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9A8B51754ADA900CB4A32 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FDE95A271754B1A0002B0625 /* 手机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "手机.jpg"; sourceTree = "<group>"; };
 		FDF9A88C1754AD7E00CB4A32 /* 图像抖动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图像抖动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF9A88F1754AD7E00CB4A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDF9A8911754AD7E00CB4A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +42,7 @@
 		FDF9A8AB1754AD7F00CB4A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		FDF9A8AD1754AD7F00CB4A32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FDF9A8AE1754AD7F00CB4A32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF9A8B51754ADA900CB4A32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF9A8B61754ADA900CB4A32 /* QuartzCore.framework in Frameworks */,
 				FDF9A8901754AD7E00CB4A32 /* UIKit.framework in Frameworks */,
 				FDF9A8921754AD7E00CB4A32 /* Foundation.framework in Frameworks */,
 				FDF9A8941754AD7E00CB4A32 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +63,7 @@
 		FDF9A8831754AD7E00CB4A32 = {
 			isa = PBXGroup;
 			children = (
+				FDF9A8B51754ADA900CB4A32 /* QuartzCore.framework */,
 				FDF9A8951754AD7E00CB4A32 /* 图像抖动 */,
 				FDF9A88E1754AD7E00CB4A32 /* Frameworks */,
 				FDF9A88D1754AD7E00CB4A32 /* Products */,
@@ -85,6 +91,7 @@
 		FDF9A8951754AD7E00CB4A32 /* 图像抖动 */ = {
 			isa = PBXGroup;
 			children = (
+				FDE95A271754B1A0002B0625 /* 手机.jpg */,
 				FDF9A89E1754AD7E00CB4A32 /* AppDelegate.h */,
 				FDF9A89F1754AD7E00CB4A32 /* AppDelegate.m */,
 				FDF9A8A71754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +174,7 @@
 				FDF9A8A61754AD7E00CB4A32 /* Default-568h@2x.png in Resources */,
 				FDF9A8A91754AD7F00CB4A32 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FDF9A8AC1754AD7F00CB4A32 /* MainStoryboard_iPad.storyboard in Resources */,
+				FDE95A281754B1A0002B0625 /* 手机.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,7 @@
 				FDF9A8B41754AD7F00CB4A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
